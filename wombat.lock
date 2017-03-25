@@ -10,7 +10,7 @@
   ],
   "ttl": 8,
   "linux": "ubuntu",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "products": {
     "chef": "stable-12.19.36",
     "chef-server": "stable-12.13.0",
@@ -26,7 +26,7 @@
   "workstations": {
     "platform": "windows",
     "password": "RL9@T40BTmXh",
-    "count": 1
+    "count": 15
   },
   "infranodes": {
     "ecomacceptance": {
@@ -98,24 +98,38 @@
   },
   "amis": {
     "us-west-2": {
-      "automate": "ami-1825ac78",
-      "build-node": {
-        "1": "ami-2c22ab4c",
-        "2": "ami-6625ac06",
-        "3": "ami-9f20a9ff"
-      },
-      "chef-server": "ami-bc24addc",
-      "compliance": "ami-fb20a99b",
-      "infranodes": {
-        "delivered": "ami-f820a998",
-        "ecomacceptance": "ami-6525ac05",
-        "rehearsal": "ami-ff20a99f",
-        "union": "ami-2827ae48"
-      },
       "workstation": {
-        "1": "ami-34b73f54"
-      }
+        "9": "ami-dc2ea4bc",
+        "14": "ami-032ca663",
+        "6": "ami-4322a823",
+        "1": "ami-b22fa5d2",
+        "15": "ami-722fa512",
+        "3": "ami-892ea4e9",
+        "12": "ami-a82da7c8",
+        "13": "ami-8f2ca6ef",
+        "4": "ami-122fa572",
+        "10": "ami-8d2ca6ed",
+        "11": null,
+        "7": "ami-cd2fa5ad",
+        "8": "ami-132da773",
+        "5": "ami-022fa562",
+        "2": "ami-662da706"
+      },
+      "automate": "ami-072ca667",
+      "build-node": {
+        "1": "ami-f0159f90",
+        "3": "ami-3329a353",
+        "2": "ami-072da767"
+      },
+      "infranodes": {
+        "rehearsal": "ami-0b2ca66b",
+        "ecomacceptance": "ami-852da7e5",
+        "delivered": "ami-f2159f92",
+        "union": "ami-062fa566"
+      },
+      "compliance": "ami-9e2ba1fe",
+      "chef-server": "ami-782fa518"
     }
   },
-  "last_updated": "20170318210537"
+  "last_updated": "20170325191345"
 }

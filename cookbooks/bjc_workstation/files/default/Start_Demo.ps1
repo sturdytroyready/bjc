@@ -68,8 +68,9 @@ Write-Host "Increasing Flash Gordon Noise and Putting More Science Stuff Around.
 (Get-Content ${env:userprofile}\windows_user_data).replace('AUTOMATE_SERVER_IP', $automateserverip) | Set-Content ${env:userprofile}\windows_user_data
 # Update Test Kitchen files to match the local subnet and security group.
 Write-KitchenYaml ${env:userprofile}\cookbooks\bjc-ecommerce\.kitchen.local.yml
-Write-KitchenYaml ${env:userprofile}\Desktop\Test_Kitchen\kitchen_linux.yml
-Write-KitchenYaml ${env:userprofile}\Desktop\Test_Kitchen\kitchen_windows.yml
+# These are broken right now.
+#Write-KitchenYaml ${env:userprofile}\Desktop\Test_Kitchen\kitchen_linux.yml
+#Write-KitchenYaml ${env:userprofile}\Desktop\Test_Kitchen\kitchen_windows.yml
 
 $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 
