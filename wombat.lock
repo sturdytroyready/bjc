@@ -99,37 +99,37 @@
   "amis": {
     "us-west-2": {
       "workstation": {
-        "9": "ami-dc2ea4bc",
-        "14": "ami-032ca663",
-        "6": "ami-4322a823",
-        "1": "ami-b22fa5d2",
-        "15": "ami-722fa512",
-        "3": "ami-892ea4e9",
-        "12": "ami-a82da7c8",
-        "13": "ami-8f2ca6ef",
-        "4": "ami-122fa572",
-        "10": "ami-8d2ca6ed",
-        "11": null,
-        "7": "ami-cd2fa5ad",
-        "8": "ami-132da773",
-        "5": "ami-022fa562",
-        "2": "ami-662da706"
+        "9": "ami-0226ac62",
+        "14": "ami-0227ad62",
+        "6": "ami-0326ac63",
+        "1": "ami-0521ab65",
+        "15": "ami-0027ad60",
+        "3": null,
+        "12": "ami-5a26ac3a",
+        "13": "ami-b222a8d2",
+        "4": null,
+        "10": "ami-0527ad65",
+        "11": "ami-4123a921",
+        "7": "ami-3f20aa5f",
+        "8": "ami-b322a8d3",
+        "5": "ami-0427ad64",
+        "2": "ami-2820aa48"
       },
-      "automate": "ami-072ca667",
+      "automate": "ami-cc23a9ac",
       "build-node": {
-        "1": "ami-f0159f90",
-        "3": "ami-3329a353",
-        "2": "ami-072da767"
+        "1": "ami-cd23a9ad",
+        "3": "ami-9f26acff",
+        "2": "ami-1520aa75"
       },
       "infranodes": {
-        "rehearsal": "ami-0b2ca66b",
-        "ecomacceptance": "ami-852da7e5",
-        "delivered": "ami-f2159f92",
-        "union": "ami-062fa566"
+        "rehearsal": "ami-af21abcf",
+        "ecomacceptance": "ami-bd22a8dd",
+        "delivered": "ami-e32da783",
+        "union": "ami-1621ab76"
       },
-      "compliance": "ami-9e2ba1fe",
-      "chef-server": "ami-782fa518"
+      "compliance": "ami-bb22a8db",
+      "chef-server": "ami-aa21abca"
     }
   },
-  "last_updated": "20170325191345"
+  "last_updated": "20170325205837"
 }
