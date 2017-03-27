@@ -4,16 +4,16 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-# Ye olde startup script
-cookbook_file "#{home}\\Start_Demo.ps1" do
+# Ye olde startup script - all students should run this
+cookbook_file "#{home}\\Training_Setup.ps1" do
   action :create
-  source "Start_Demo.ps1"
+  source "Training_Setup.ps1"
 end
 
-windows_shortcut 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\start me up.lnk' do
-  target "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-  arguments " #{home}\\Start_Demo.ps1"
-  description "Start the Chef demo"
+# Compliance setup script - only one student runs this
+cookbook_file "#{home}\\Compliance_Setup.ps1" do
+  action :create
+  source "Compliance_Setup.ps1"
 end
 
 # Remove EC2 shortcuts
