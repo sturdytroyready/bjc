@@ -1,3 +1,6 @@
+# Here we are simply importing SSL certs from our AURD nodes
+# This is so the browser won't throw errors when we access our site
+
 function Import-RemoteCertificate {
     $name = $args[0]
     Write-Host ${Unix-Path $env:userprofile}/Downloads
@@ -6,17 +9,7 @@ function Import-RemoteCertificate {
 }
 
 set-executionpolicy -executionpolicy unrestricted -force -scope CurrentUser
-
-"Reticulating Splines..."
-
 Import-RemoteCertificate "ecomacceptance"
 Import-RemoteCertificate "union"
 Import-RemoteCertificate "rehearsal"
 Import-RemoteCertificate "delivered"
-
-Write-Host "Atomic Batteries to Power..."
-
-$host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
-
-Write-Host "Starting cmder..."
-& "C:\tools\cmder\Cmder.exe"
